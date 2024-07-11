@@ -13,10 +13,8 @@ export default function RootLayout({
 	return (
 		<html lang='en'>
 			<body>
-				<main>
-					<Menu />
-					{children}
-				</main>{' '}
+				<Menu />
+				{children}
 			</body>
 		</html>
 	);
