@@ -3,6 +3,8 @@ import Link from 'next/link';
 import '../../globals.css';
 import Button from '../button/Button';
 const Header = () => {
+	// const [show, setShow] = useState<boolean>(false);
+
 	return (
 		<main className='w-full  m-auto text-2xl   text-regal-blue font-medium bg-black-800 max-w-7xl'>
 			<div className='flex justify-between  '>
